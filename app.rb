@@ -17,5 +17,6 @@ class App < Sinatra::Base
     @Center=params[:center]
 
     erb :team
+  end
 
 end
